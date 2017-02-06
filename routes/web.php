@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/dash', 'Backend\HomeController@index');
+
+Route::resource('menu', 'MenusController');
