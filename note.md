@@ -23,3 +23,5 @@ php artisan make:seeder PostsTableSeeder
 php artisan make:seeder LabelsTableSeeder
 php artisan make:seeder SettingsTableSeeder
 php artisan make:seeder LabelDetailTableSeeder
+
+php artisan make:controller Dash/HomeController

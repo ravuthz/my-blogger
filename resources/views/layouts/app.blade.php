@@ -23,7 +23,7 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
 
                     <!-- Collapsed Hamburger -->
@@ -78,7 +78,13 @@
             </div>
         </nav>
 
-        @yield('content')
+        <div class="col-md-4">
+            sidebar
+        </div>
+
+        <div class="col-md-8">
+            @yield('content')
+        </div>
     </div>
 
     <!-- Scripts -->
