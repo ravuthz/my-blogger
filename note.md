@@ -27,3 +27,6 @@ php artisan make:seeder LabelDetailTableSeeder
 php artisan make:controller Dash/HomeController
 
 php artisan make:controller Dash/MenuController --resource
+
+# install html & form
+https://laravelcollective.com/docs/5.3/html#installation
