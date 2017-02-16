@@ -25,3 +25,5 @@ php artisan make:seeder SettingsTableSeeder
 php artisan make:seeder LabelDetailTableSeeder
 
 php artisan make:controller Dash/HomeController
+
+php artisan make:controller Dash/MenuController --resource
